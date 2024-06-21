@@ -2,7 +2,7 @@
 
 Bare-metal driver development includes:
 1. Analog-to-Digital Converter (ADC)
-​2. Serial Peripheral Interface (SPI)
+2. Serial Peripheral Interface (SPI)
 3. Inter-Integrated Circuit (I2C)
 4. Direct Memory Access (DMA)
 5. Nested Vector Interrupt Controller (NVIC)
