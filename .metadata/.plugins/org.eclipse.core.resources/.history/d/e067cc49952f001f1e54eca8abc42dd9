@@ -1,0 +1,22 @@
+/*
+ * adxl345.c
+ *
+ *  Created on: Jun 20, 2024
+ *      Author: hsuankai.chang
+ */
+
+#include "adxl345.h"
+
+
+char data;
+
+
+void adxl_read_address(uint8_t reg)
+{
+	I2C_byteRead(DEVICE_ADDR, ref, &data);
+}
+
+void adxl_write_address(uint8_t reg)
+{
+	I2C_byteRead(DEVICE_ADDR, ref, &data);
+}

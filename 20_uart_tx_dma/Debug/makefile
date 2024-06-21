@@ -59,8 +59,8 @@ all: main-build
 main-build: 20_uart_tx_dma.elf secondary-outputs
 
 # Tool invocations
-20_uart_tx_dma.elf 20_uart_tx_dma.map: $(OBJS) $(USER_OBJS) C:\learning\Udemy\Embedded\ Systems\ Bare-Metal\ Programming\ Ground\ Up\ (STM32)\20_uart_tx_dma\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "20_uart_tx_dma.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\learning\Udemy\Embedded Systems Bare-Metal Programming Ground Up (STM32)\20_uart_tx_dma\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="20_uart_tx_dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+20_uart_tx_dma.elf 20_uart_tx_dma.map: $(OBJS) $(USER_OBJS) C:\learning\Udemy\Embedded-Systems-Bare-Metal-Programming-Ground-Up\20_uart_tx_dma\STM32F446RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "20_uart_tx_dma.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\learning\Udemy\Embedded-Systems-Bare-Metal-Programming-Ground-Up\20_uart_tx_dma\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="20_uart_tx_dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

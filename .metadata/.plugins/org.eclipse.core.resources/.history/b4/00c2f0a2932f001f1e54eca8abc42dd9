@@ -1,0 +1,8 @@
+/*
+ * adxl345.c
+ *
+ *  Created on: Jun 20, 2024
+ *      Author: hsuankai.chang
+ */
+
+#include "adxl345.h"

@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdint.h>
+#include "uart.h"
+#include "adxl345.h"
+
+
+#define GPIOAEN			(1U << 0)
+#define GPIOA_5			(1U << 5)
+#define LED_PIN			GPIOA_5
+
+
+
+int main()
+{
+	adxl_init();
+	while(1)
+	{
+
+	}
+}
+
+
+
+
+
+
+
+
+

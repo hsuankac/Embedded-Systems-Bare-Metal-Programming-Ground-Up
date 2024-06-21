@@ -1,0 +1,9 @@
+23:35:20 **** Clean-only build of configuration Debug for project 21_I2C_adxl345 ****
+make -j8 clean 
+rm -rf ./Startup/startup_stm32f446retx.d ./Startup/startup_stm32f446retx.o
+rm -rf ./Src/adxl345.cyclo ./Src/adxl345.d ./Src/adxl345.o ./Src/adxl345.su ./Src/i2c.cyclo ./Src/i2c.d ./Src/i2c.o ./Src/i2c.su ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su ./Src/uart.cyclo ./Src/uart.d ./Src/uart.o ./Src/uart.su
+rm -rf 21_I2C_adxl345.elf 21_I2C_adxl345.list 21_I2C_adxl345.map default.size.stdout
+ 
+
+23:35:21 Build Finished. 0 errors, 0 warnings. (took 932ms)
+
